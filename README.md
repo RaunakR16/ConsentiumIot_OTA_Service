@@ -27,7 +27,7 @@ This project implements an Over-the-Air (OTA) update service using Consentium Io
  - ConsentiumThings.
  - DHT Sensor Library
 
- ### Update WiFi credentials in *main()*
+ ### Update WiFi credentials in **main()**
  
  ```cpp
 
@@ -35,7 +35,7 @@ const char *ssid = "YOUR_WIFI_SSID";
 const char *pass = "YOUR_WIFI_PASSWORD";
 ```
 
- ### Update API keys in *main()*.
+ ### Update API keys in **main()**.
  ```cpp:
 
 const char *SendApiKey = "YOUR_SEND_API_KEY";
