@@ -9,3 +9,14 @@ This project implements an Over-the-Air (OTA) update service using Consentium Io
  - Version 0.1: Enhanced to upload both temperature and humidity data.
  - Periodically sends sensor data to the Consentium IoT cloud.
  - Checks for OTA updates every 10 cycles and updates firmware if a new version is available.
+
+## Hardware Requirements
+ - ESP32 development board.
+ - DHT11 Temperature & Humidity Sensor.
+ - WiFi connection.
+
+ ## Software Requirements
+  - Consentiumiot Board API. (Setup guide for Consentiumiot: https://docs.consentiumiot.com/readme/consentium-iot-platform-usage)
+  - ConsentiumThings library.
+  - DHT sensor library.
+  - Arduino IDE.
